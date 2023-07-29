@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def root():
-  return "<h1>welcome to ITIL exam</h1>"
+  return "<h1>Welcome to ITIL exam</h1>"
 
 @app.route("/modules", methods=["GET"])
 def root1():
